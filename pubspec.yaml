@@ -1,0 +1,23 @@
+name: news_app
+description: "Proyek Praktikum Pertemuan 11 - Integrasi REST API (http, Dio, Repository, Upload Multipart)"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  dio: ^5.7.0
+  flutter_riverpod: ^2.6.1
+  image_picker: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
